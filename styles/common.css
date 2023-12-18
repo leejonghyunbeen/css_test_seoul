@@ -1,0 +1,56 @@
+header {
+    width: 1151px;
+    margin: 0 auto;
+}
+/* 상단바 */
+header nav {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    margin-top: 14px;
+}
+header nav .left {}
+header nav .left a {
+    margin-right: 16px;font-size: 0.875rem; font-weight:400;
+    padding: 15px 0 ;
+}
+header nav .left a img {}
+header nav .right {}
+header nav .right a {
+    margin-left: 16px; font-size: 0.875rem; font-weight: 400;
+}
+header .bottom  {}
+header .bottom #top_menu {
+margin-top: 50px;
+}
+header .bottom #top_menu fieldset {}
+header .bottom #top_menu fieldset a {}
+header .bottom #top_menu fieldset #sikp {display: none;     }
+header .bottom #top_menu fieldset .logo_black {margin-right: 234px;}
+header .bottom #top_menu fieldset .logo_black img {}
+/* 검색 */
+header .bottom #top_menu fieldset span {
+    font-size: 0.875rem;
+    padding: 13px 0 14px 21px;
+    border: 3px solid #1e6cb3;
+    width: 370px; height:47px ;
+}
+header .bottom #top_menu fieldset span input {}
+header .bottom #top_menu fieldset span a {}
+header .bottom #top_menu fieldset span a img {
+    width: 24px;}
+header .bottom #top_menu fieldset #lang {margin-left: 271px;
+    margin-right: 40px;
+}
+/* 버튼 */
+header .bottom #top_menu fieldset #lang option {}
+header .bottom #top_menu fieldset button {
+    background-color:  #1e6cb3;
+    color: #ffff; width: 28px; height: 28px;
+}
+header .bottom .weader {
+    margin-left: 818px;
+    margin-bottom: 20px;
+}
+header .bottom .weader p {}
+header .bottom .weader p span {
+    font-size: 1.5rem; font-weight: 700;
+}
